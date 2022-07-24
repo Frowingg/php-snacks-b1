@@ -20,8 +20,7 @@
         var_dump($age);
 
 
-        if(strlen($name) > 3 && strpos($mail, ".") && strpos($mail, "@") && is_numeric($age)
-        ) {
+        if(strlen($name) > 3 && strpos($mail, ".") && strpos($mail, "@") && is_numeric($age)) {
             $userMessage = 'Accesso riuscito';
         } else {
             $userMessage = 'Accesso negato';
